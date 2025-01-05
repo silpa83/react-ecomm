@@ -1,0 +1,92 @@
+* {
+    margin: auto;
+}
+
+.Login-container {
+    width: 400px;
+    padding: 40px;
+    /* height: 380px; */
+    margin:30px auto;
+    /* background-color: whitesmoke; */
+    /* background-color: bisque; */
+    /* margin-bottom: 10px; */
+    border: 1px solid silver;
+    box-shadow: 1px 1px 1px silver;
+    border-radius: 10px;
+
+}
+
+
+input,button {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    line-height: 50px;
+    outline-color: silver;
+    /* outline: none; */
+
+}
+
+.newAccBtn {
+    width: 60%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    outline: auto;
+    outline-color: silver;
+    color:#3b120f;
+}
+
+button {
+    background-color: #3b120f;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+.txtBox:focus-within {
+    border: 2px solid silver;
+}
+
+.pwdEye {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pwdEye:focus-within {
+    border: 2px solid silver;
+
+}
+
+input[type=password]:focus {
+    outline: none;
+}
+
+.title {
+    font-size: 60px;
+    text-align: left;
+}
+
+.tagLine {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.Login-msg{
+    font-size: 20px;
+    font-weight: bold;
+    color:red;
+    padding:5px
+}
+
+.Login-signup-title {
+    font-size: 30px;
+    text-align: left;
+    width: 100%;
+  }

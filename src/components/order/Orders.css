@@ -1,0 +1,17 @@
+.Orders-container {
+    width:600px;
+    font-size: 20px;
+
+}
+.Orders-container table {
+    padding:10px;
+}
+
+.Orders-container th {
+    text-align: left;
+    padding:10px;
+}
+.Orders-container td {
+    text-align:left;
+    padding:10px;
+}
